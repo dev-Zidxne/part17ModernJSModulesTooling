@@ -86,3 +86,9 @@ export.addToCart=function (product, quantity) {
 // Import
 const {addToCart} = require('./shoppingCart.js')
 */
+
+import copyArray from 'lodash-es/_copyArray';
+
+const names = ['mike', 'ziddy', 'pizza', 'haha', 'muma', 'shell'];
+
+console.log(names);
